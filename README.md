@@ -64,4 +64,16 @@ Access the app in your browser: bash http://:5000 Use ip a or hostname -I to get
 
 ✅ CI/CD pipeline status shown in Actions tab 
 Result:
+![Screenshot 2025-05-05 160624](https://github.com/user-attachments/assets/e1745acd-8ace-4e3e-897b-4aedd6601458)
+![Screenshot 2025-05-05 152318](https://github.com/user-attachments/assets/d4c33156-fa98-408a-b515-a1a2992281d1)
+![Screenshot 2025-05-05 152318](https://github.com/user-attachments/assets/1b2a5703-826c-4ab6-90a5-52a681d5cff2)
+![Screenshot 2025-05-05 152357](https://github.com/user-attachments/assets/803b0905-8352-453a-8814-4b1ad407a9ad)
+![Screenshot 2025-05-05 154414](https://github.com/user-attachments/assets/c566dbc8-7a0b-42c7-9886-0a9e5e8902e6)
+![Screenshot 2025-05-05 155737](https://github.com/user-attachments/assets/c8257b3e-46fb-4363-85f4-8066f6abe19a)
+
+
+
+
+
+
 
