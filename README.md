@@ -24,7 +24,7 @@ Step 3: Edit requirements.txt bash vi requirements.txt
 
 Step 4: Edit Dockerfile bash vi Dockerfile
 
-Step 5: Initialize Git & Push to GitHub bash git init git remote add origin https:// git add . git commit -m "Initial commit - CI/CD setup" git branch -M main git push -u origin main
+Step 5: Initialize Git & Push to GitHub bash git init git remote add origin https://github.com/TharunMacharla/ci-cd-project.git git add . git commit -m "Initial commit - CI/CD setup" git branch -M main git push -u origin main
 
 Step 6: Create GitHub Actions Workflow bash mkdir -p .github/workflows vi .github/workflows/docker.yml
 
@@ -36,7 +36,7 @@ git add .github/workflows/docker.yml git commit -m "Add CI/CD workflow" git push
 
 Step 8: Set Secrets on GitHub In your GitHub repo:
 
-Go to Settings → Secrets and variables → Actions → New repository secret Add: Name: DOCKER_USERNAME Value: your Docker Hub username (e.g., precilitha123) Do the same for your password:
+Go to Settings → Secrets and variables → Actions → New repository secret Add: Name: DOCKER_USERNAME Value: your Docker Hub username (e.g., tharunmacharla) Do the same for your password:
 
 Name: DOCKER_PASSWORD Value: your Docker Hub password or access token(better to create access token and use that) or dockerhub password
 
@@ -58,8 +58,10 @@ Access the app in your browser: bash http://:5000 Use ip a or hostname -I to get
 
 📸 Deliverables ✅ GitHub repository with working CI/CD pipeline
 
-✅ Docker image: precilitha10/ci-cd-vm
+✅ Docker image: tharunmacharla/ci-cd-vm
 
 ✅ Local deployment screenshots (add below if available)
 
-✅ CI/CD pipeline status shown in Actions tab
+✅ CI/CD pipeline status shown in Actions tab 
+Result:
+
