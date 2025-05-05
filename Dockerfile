@@ -1,9 +1,6 @@
-# Dockerfile
-FROM node:20-alpine
+# dockerfile
+FROM python:3.9-slim
 WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 3000
-CMD ["npm", "start"]
+COPY requirements.txt . RUN pip install -r requirements.txt
+COPY . . CMD ["python", "app.py"]
 
